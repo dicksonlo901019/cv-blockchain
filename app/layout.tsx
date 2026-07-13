@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
 
-const title = "盧駿軒 Dickson Lo｜Blockchain 產品經理";
-const description = "Web3 產品經理履歷，聚焦 CEX、交易系統、Wallet、NFT 與虛擬資產平台產品。";
+const title = "Dickson Lo | Web3 Product Manager";
+const description =
+  "Web3 product manager with experience across CEX platforms, trading systems, wallets, NFT products, and digital-asset infrastructure.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -18,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     robots: { index: false, follow: false },
     openGraph: {
       type: "profile",
-      locale: "zh_TW",
+      locale: "en_US",
       title,
       description,
       url: baseUrl,
@@ -40,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
