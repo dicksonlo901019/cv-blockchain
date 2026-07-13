@@ -17,7 +17,7 @@ async function render() {
 test("redirects the public URL directly to the Blockchain CV", async () => {
   const response = await render();
   assert.equal(response.status, 307);
-  assert.equal(response.headers.get("location"), "http://localhost/blockchain-cv");
+  assert.equal(response.headers.get("location"), "http://localhost/blockchain-cv?v=20260713-2");
 });
 
 test("ships the Blockchain CV, PDF, and social preview", async () => {
