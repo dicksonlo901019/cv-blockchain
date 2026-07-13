@@ -34,3 +34,17 @@ test("ships the Blockchain CV, PDF, and social preview", async () => {
     access(new URL("../public/og.png", import.meta.url)),
   ]);
 });
+
+test("ships a Traditional Chinese CV at /zh/", async () => {
+  const zhUrl = new URL("../public/zh/index.html", import.meta.url);
+  const zh = await readFile(zhUrl, "utf8");
+
+  assert.match(zh, /lang="zh-Hant"/);
+  assert.match(zh, /Blockchain 產品履歷/);
+  assert.match(zh, /href="\.\.\/"[^>]*>English<\/a>/);
+  assert.doesNotMatch(zh, /<a href="https:\/\/[^\"]+">/);
+  await Promise.all([
+    access(zhUrl),
+    access(new URL("../public/zh/dickson-lo-blockchain-cv.pdf", import.meta.url)),
+  ]);
+});

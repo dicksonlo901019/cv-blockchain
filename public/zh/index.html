@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>盧駿軒 Dickson Lo - Blockchain 產品履歷</title>
+  <style>
+    :root {
+      --ink: #18212f;
+      --muted: #607086;
+      --line: #d8dee8;
+      --panel: #f6f8fb;
+      --accent: #0f766e;
+      --accent-soft: #e6f4f1;
+      --link: #1155cc;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding-top: 58px;
+      background: #eef2f6;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+      line-height: 1.55;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page {
+      width: min(1040px, calc(100% - 32px));
+      margin: 28px auto;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 50px rgba(22, 34, 51, 0.12);
+    }
+
+    header {
+      padding: 34px 44px 24px;
+      border-bottom: 4px solid var(--accent);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: start;
+    }
+
+    h1 { margin: 0; font-size: 34px; letter-spacing: 0; line-height: 1.15; }
+
+    .headline {
+      margin-top: 8px;
+      color: var(--accent);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .summary {
+      margin: 14px 0 0;
+      max-width: 780px;
+      color: #2d3949;
+      font-size: 15px;
+    }
+
+    .contact {
+      text-align: right;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .contact div { margin-bottom: 5px; }
+    main { padding: 28px 44px 42px; }
+    section { margin: 0 0 30px; }
+
+    h2 {
+      margin: 0 0 14px;
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--line);
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    h3 { margin: 0; font-size: 16px; line-height: 1.35; }
+
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 2px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .skill-group {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      padding: 13px 14px;
+    }
+
+    .skill-group strong {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 13px;
+      color: var(--accent);
+    }
+
+    .skill-group span {
+      display: block;
+      color: #344255;
+      font-size: 13px;
+    }
+
+    .role {
+      padding: 0 0 22px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .role:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+
+    .role-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: start;
+      margin-bottom: 8px;
+    }
+
+    ul { margin: 8px 0 0 20px; padding: 0; }
+    li { margin: 5px 0; }
+
+    .project-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .project {
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 14px;
+    }
+
+    .project h3 { color: var(--accent); font-size: 15px; }
+
+    .project p {
+      margin: 7px 0 0;
+      color: #344255;
+      font-size: 13px;
+    }
+
+    .tags {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      background: var(--accent-soft);
+      color: #0c5f59;
+      border: 1px solid #c4e5de;
+      padding: 2px 7px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .compact-list {
+      columns: 2;
+      column-gap: 28px;
+      margin-top: 6px;
+    }
+
+    .note { color: var(--muted); font-size: 12px; margin-top: 8px; }
+
+    .cv-actions {
+      position: fixed;
+      z-index: 20;
+      top: 10px;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px;
+      border: 1px solid rgba(216, 222, 232, 0.92);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 8px 24px rgba(22, 34, 51, 0.13);
+      backdrop-filter: blur(12px);
+    }
+
+    .cv-actions a,
+    .cv-actions button {
+      appearance: none;
+      border: 0;
+      border-radius: 8px;
+      background: transparent;
+      color: #344255;
+      cursor: pointer;
+      font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+      padding: 10px 12px;
+      text-decoration: none;
+    }
+
+    .cv-actions a:hover,
+    .cv-actions button:hover { background: #eef2f6; text-decoration: none; }
+    .cv-actions .cv-actions__primary { background: #0f766e; color: #fff; }
+    .cv-actions .cv-actions__primary:hover { background: #0c5f59; }
+
+    @media (max-width: 760px) {
+      body { padding-top: 54px; }
+      .page { width: 100%; margin: 0; border: 0; box-shadow: none; }
+      header, main { padding-left: 22px; padding-right: 22px; }
+      header, .role-head, .skills, .project-list, .grid { grid-template-columns: 1fr; }
+      .contact { text-align: left; white-space: normal; }
+      .compact-list { columns: 1; }
+      .cv-actions { top: 6px; right: 6px; left: 6px; justify-content: center; }
+      .cv-actions a, .cv-actions button { padding: 9px 8px; font-size: 12px; }
+    }
+
+    @media print {
+      body { background: #fff; padding-top: 0; }
+      .cv-actions { display: none; }
+      .page { width: 100%; margin: 0; border: 0; box-shadow: none; }
+      header { padding-top: 18px; }
+      main { padding-bottom: 18px; }
+      section, .role, .project { break-inside: avoid; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="cv-actions" aria-label="履歷操作">
+    <a href="./dickson-lo-blockchain-cv.pdf?v=20260713-4" download="dickson-lo-blockchain-cv.pdf">下載 PDF</a>
+    <a href="../" lang="en" hreflang="en">English</a>
+    <button type="button" onclick="window.print()">列印</button>
+    <a href="https://www.linkedin.com/in/lo-chun-hin-dickson-094180141/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="cv-actions__primary" href="mailto:dicksonlo901019@gmail.com">聯絡我</a>
+  </nav>
+  <article class="page">
+    <header>
+      <div>
+        <h1>盧駿軒 Dickson Lo</h1>
+        <div class="headline">Web3 產品經理 | CEX / 交易系統 | Wallet 與 NFT 產品</div>
+        <p class="summary">
+          具備 10 年產品管理經驗，近期聚焦 Web3 交易產品、CEX 平台架構、量化交易工具、法幣出入金、C2C/P2P、Wallet/NFT flow 與 AI/LLM 驅動的產品開發流程。曾帶領 5 人產品與設計團隊，於 4 個月內完成 0 到 1 交易所平台上線，並設計 Triple-Ledger 資產架構、多層審批流、社區返佣引擎、Futures Grid Trading Bot、FX 報價與預言機防護、Smart Routing 等複雜系統。
+        </p>
+      </div>
+      <div class="contact">
+        <div>台灣台北</div>
+        <div><a href="mailto:dicksonlo901019@gmail.com">dicksonlo901019@gmail.com</a></div>
+        <div>中文 / 粵語母語</div>
+        <div>英文中級</div>
+        <div>目前待業中</div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>核心能力</h2>
+        <div class="skills">
+          <div class="skill-group">
+            <strong>CEX / 交易產品</strong>
+            <span>Centralized exchange、futures grid、trading UX、order lifecycle、保證金與 liquidation logic</span>
+          </div>
+          <div class="skill-group">
+            <strong>資產與風控架構</strong>
+            <span>Triple-Ledger、wallet matrix、reconciliation、approval flow、risk control、account security</span>
+          </div>
+          <div class="skill-group">
+            <strong>法幣 / 加密資產基礎設施</strong>
+            <span>C2C/P2P、fiat on/off-ramp、Quick Trade、FX aggregation、oracle protection、smart routing</span>
+          </div>
+          <div class="skill-group">
+            <strong>Wallet / NFT 產品</strong>
+            <span>WalletConnect、EIP-712、NFT transfer、Web2/Web3 game assets、non-custodial flows</span>
+          </div>
+          <div class="skill-group">
+            <strong>產品交付</strong>
+            <span>0 到 1 上線、PRD/FRD/BRD、technical pre-review、模組化需求、跨區域交付</span>
+          </div>
+          <div class="skill-group">
+            <strong>AI 產品工作流</strong>
+            <span>Agentic workflow、prompt engineering、IR mapping、design-to-code prototype automation</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>工作經歷</h2>
+
+        <div class="role">
+          <div class="role-head">
+            <div>
+              <h3>奇換橘子股份有限公司（Xchanger Co., Ltd.，橘子集團子公司） - Web 產品經理</h3>
+              <div class="meta">Web3 / Gaming / NFT / AI 工作流自動化</div>
+            </div>
+            <div class="meta">2025 年 7 月 - 2026 年 6 月 | 台北</div>
+          </div>
+          <ul>
+            <li>主導 Xchanger NFT platform 產品規劃，整合 WalletConnect 與 EIP-712 signing，設計 NFT to/from game 跨 Web2/Web3 遊戲資產流轉機制。</li>
+            <li>定義 on-chain / off-chain asset reconciliation 與多重驗證資料一致性監控，支援 non-custodial withdrawal 的安全性與透明度。</li>
+            <li>自主建立 Agentic Workflow 產品自動化引擎，將 PM、UI/UX、Front-End、Figma 相關角色拆解為可協作的 AI workflow，支援 Web3 產品從需求到 prototype 的快速迭代。</li>
+            <li>設計 IR mapping 與 DS Dictionary 約束，降低 LLM hallucination，使 AI 產出的 UI/prototype 更符合工程語義與規範。</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head">
+            <div>
+              <h3>亞太滿譽科技有限公司 - 產品經理至產品負責人</h3>
+              <div class="meta">CEX: Fameex / TopOne | 虛擬資產交易 | 產品團隊負責人</div>
+            </div>
+            <div class="meta">2022 年 7 月 - 2025 年 7 月 | 台北</div>
+          </div>
+          <ul>
+            <li>從 Product Manager 晉升為 Product Lead，帶領 5 人產品與設計團隊，負責 亞太滿譽科技有限公司 旗下 CEX 產品 Fameex / TopOne 的交易所生態建設。</li>
+            <li>於 4 個月內推動 0 到 1 CEX 平台上線，定義交易基礎設施、wallet/account architecture、approval flow、rebate engine、fiat/crypto routing 與 risk-control systems。</li>
+            <li>主導 PRD 模組化與 technical pre-review 機制，達成 100% requirement componentization 與 80% complex logic alignment，降低開發阻塞並提升跨團隊交付效率。</li>
+            <li>設計 Triple-Ledger 資產架構與 1-6 層 dynamic approval flow，涵蓋 user funding account、trading account、commission account、platform-side account、大額提領與關鍵配置異動。</li>
+            <li>主導 Futures Grid Trading Bot Web/App 端到端設計，支援 neutral/long/short 策略、arithmetic/geometric grid、estimated liquidation price、minimum initial margin、order splitting、FILO matching、ROI/APY 計算。</li>
+            <li>設計 fiat on/off-ramp、C2C/P2P 與 Quick Trade flows，包含 FX aggregation、+/-3% median deviation protection、liquidity-priority smart routing、IP/device blocking 與 cancellation-risk controls。</li>
+            <li>重構 exchange admin system，將 coin、asset、deposit/withdrawal configuration 模組化，並建立每 30 分鐘更新的 on-chain wallet snapshot 與 asset reconciliation logic。</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head">
+            <div>
+              <h3>Narrow Pacific - 產品經理</h3>
+              <div class="meta">Crypto Investment / 帳戶與 Wallet 流程 | Hash Card</div>
+            </div>
+            <div class="meta">2021 - 2022</div>
+          </div>
+          <ul>
+            <li>執行市場調查與使用者訪談，主導 App/Web flow planning 與 prototype 設計。</li>
+            <li>設計 Hash Card crypto product flow，涵蓋 landing、product listing、checkout、order confirmation、payment success/failure、account dashboard、wallet、settings、messages 與 referral flows。</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head">
+            <div>
+              <h3>INNO-OZ - 產品 / 專案經理</h3>
+              <div class="meta">客戶專案 | 電商 / 社群 / IoT / 內部工具</div>
+            </div>
+            <div class="meta">2016 - 2021</div>
+          </div>
+          <ul>
+            <li>主導 5-6 個客戶專案從規劃到上線，橫跨 e-commerce tools、social media、industry internal tools、IoT tools 與 end-user apps。</li>
+            <li>產出 FRD、user case、wireframe、prototype、flow chart、competitive product analysis、issue tracking、kanban 與 gantt chart 等產品與交付素材。</li>
+            <li>改善 API documentation standardization 流程，提升開發協作效率，為後續複雜金融與 Web3 系統協作奠定產品交付基礎。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>重點專案</h2>
+        <div class="project-list">
+          <div class="project">
+            <h3>亞太滿譽科技有限公司 CEX - Fameex / TopOne</h3>
+            <p>設計 agent/community-driven CEX 系統，包含 wallet matrix、USDT valuation engine、real-time asset snapshots、multi-level approval flow、community rebate settlement、Quick Trade matching 與 risk monitoring。</p>
+            <div class="tags">
+              <span class="tag">CEX</span><span class="tag">Asset Ledger</span><span class="tag">Risk Control</span><span class="tag">0-to-1</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>永續合約網格交易系統</h3>
+            <p>設計 futures grid trading bot，支援 neutral、long、short 策略，並建立 liquidation price、initial margin、order splitting、FILO matching、per-grid ROI 與 APY 計算邏輯。</p>
+            <div class="tags">
+              <span class="tag">Derivatives</span><span class="tag">Grid Bot</span><span class="tag">Margin Engine</span><span class="tag">Trading UX</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>法幣 / 加密資產 FX 平台</h3>
+            <p>建立 C2C/P2P、Quick Trade 與第三方流動性聚合流程，整合 Binance、OKX、KuCoin、Yahoo 等資料源，設計 dynamic weighting、median deviation filtering 與 smart routing。</p>
+            <div class="tags">
+              <span class="tag">On-ramp</span><span class="tag">P2P</span><span class="tag">Oracle Protection</span><span class="tag">Smart Routing</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Xchanger NFT Platform</h3>
+            <p>規劃 NFT platform 與 Web3 wallet flows，整合 WalletConnect、導入 EIP-712 signing，設計 NFT to/from game 跨 Web2/Web3 遊戲資產流轉、seller onboarding、collection optimization 與 non-custodial reconciliation。</p>
+            <div class="tags">
+              <span class="tag">NFT</span><span class="tag">WalletConnect</span><span class="tag">EIP-712</span><span class="tag">Reconciliation</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Hash Card</h3>
+            <p>設計 33 頁 crypto hashpower product prototype，涵蓋 product discovery、checkout、order confirmation、payment success/failure、account dashboard、wallet、spot/futures wallets 與 referral flows。</p>
+            <div class="tags">
+              <span class="tag">Crypto Product</span><span class="tag">Wallet</span><span class="tag">Checkout</span><span class="tag">Referral</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>AI Agent 產品開發工作流</h3>
+            <p>於 奇換橘子股份有限公司（Xchanger Co., Ltd.） 導入 AI Agent 重塑產品開發流程，將 business requirements 轉為 PRD、wireframe、semantic mapping 與 high-fidelity prototype，加速 Web3 產品驗證。</p>
+            <div class="tags">
+              <span class="tag">LLM</span><span class="tag">Prompt Engineering</span><span class="tag">IR Mapping</span><span class="tag">Design-to-Code</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>作品集</h2>
+        <ul class="compact-list">
+          <li>Futures Grid Trading Bot PRD 與 wireframe：<a href="https://m1fyrc.axshare.com/#g=1&id=0bzd6t&p=6_4_1_-_grid_futures" target="_blank" rel="noopener noreferrer">Axure 原型</a></li>
+          <li>法幣 / 加密資產 FX App wireframe：<a href="https://q3avlh.axshare.com/#id=xz0xoh&p=1_1_-_esc___0904_&g=1" target="_blank" rel="noopener noreferrer">Axure 原型</a></li>
+          <li>法幣 / 加密資產 FX 管理後台：<a href="https://drihx4.axshare.com/#id=ff0ghy&p=1_1_%E5%AF%A9%E6%89%B9%E5%96%AE%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">Axure 原型</a></li>
+          <li>Hash Card：<a href="https://app.notion.com/p/Hash-Card-a1954ace0064475db1f2fe4102ae8532?pvs=21" target="_blank" rel="noopener noreferrer">作品集</a></li>
+          <li>Fameex：<a href="https://www.fameex.com/zh-TW" target="_blank" rel="noopener noreferrer">官方網站</a></li>
+          <li>AI Agent 產品開發工作流：<a href="https://dickson-login-registration.dicksonlo901019.chatgpt.site" target="_blank" rel="noopener noreferrer">登入 / 註冊原型</a>、<a href="https://dickson-cex-ai-landing-page.dicksonlo901019.chatgpt.site" target="_blank" rel="noopener noreferrer">CEX x AI Landing Page</a></li>
+          <li>Xchanger NFT Platform 功能原型：<a href="https://dickson-become-seller-prototype.dicksonlo901019.chatgpt.site" target="_blank" rel="noopener noreferrer">成為賣家構想原型</a>、<a href="https://dickson-collection-optimization.dicksonlo901019.chatgpt.site" target="_blank" rel="noopener noreferrer">收藏集優化原型</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>教育與語言</h2>
+        <div class="grid">
+          <div>
+            <h3>中國文化大學</h3>
+            <div class="meta">森林暨自然保育學系 學士 | 2015 年 6 月</div>
+          </div>
+          <div>
+            <h3>語言能力</h3>
+            <div class="meta">中文: 母語 | 粵語: 母語 | 英文: 中級</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </article>
+</body>
+</html>
