@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  redirect("/blockchain-cv?v=20260713-4");
+  redirect("/blockchain-cv?v=1.1.0");
 }
