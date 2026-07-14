@@ -41,6 +41,8 @@ test("ships a Traditional Chinese CV at /zh/", async () => {
 
   assert.match(zh, /lang="zh-Hant"/);
   assert.match(zh, /Blockchain 產品履歷/);
+  assert.match(zh, /產品經理至產品部主管/);
+  assert.doesNotMatch(zh, /產品經理至產品負責人/);
   assert.match(zh, /href="\.\.\/"[^>]*>English<\/a>/);
   assert.doesNotMatch(zh, /<a href="https:\/\/[^\"]+">/);
   await Promise.all([
