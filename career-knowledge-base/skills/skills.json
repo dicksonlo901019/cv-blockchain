@@ -1,0 +1,106 @@
+[
+  {
+    "id": "skill-product-leadership",
+    "skill": "Product Leadership",
+    "category": "Leadership",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Asia Pacific Manyu Technology",
+      "projectId": "project-cex-platform",
+      "description": "Led a five-person product and design team for the Fameex / TopOne CEX ecosystem.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-platform-product",
+    "skill": "Platform Product",
+    "category": "Product Management",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Asia Pacific Manyu Technology",
+      "projectId": "project-cex-platform",
+      "description": "Defined a CEX platform spanning trading, wallet, approval, routing, and risk-control systems.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-risk-controls",
+    "skill": "Risk Management",
+    "category": "FinTech",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Asia Pacific Manyu Technology",
+      "projectId": "project-fiat-crypto",
+      "description": "Designed median-deviation, smart-routing, IP/device, cancellation, withdrawal, and configuration-change controls.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-wallet",
+    "skill": "Wallet",
+    "category": "Web3",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Xchanger Co., Ltd.",
+      "projectId": "project-xchanger-nft",
+      "description": "Planned Web3 wallet flows with WalletConnect, EIP-712 signing, and reconciliation.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-trading",
+    "skill": "Trading Products",
+    "category": "FinTech",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Asia Pacific Manyu Technology",
+      "projectId": "project-futures-grid",
+      "description": "Led end-to-end design for a perpetual-futures grid trading bot.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-ai-workflows",
+    "skill": "AI Product Workflows",
+    "category": "AI",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Xchanger Co., Ltd.",
+      "projectId": "project-ai-workflow",
+      "description": "Built an agentic workflow for requirements, PRDs, semantic mapping, wireframes, and prototypes.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-product-discovery",
+    "skill": "Product Discovery",
+    "category": "Product Management",
+    "proficiency": "Applied",
+    "evidence": [{
+      "company": "Gallup Communications",
+      "projectId": "project-hash-card",
+      "description": "Conducted market research and user interviews before planning App and Web product flows.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "skill-technical-delivery",
+    "skill": "Technical Programme Delivery",
+    "category": "Delivery",
+    "proficiency": "Led",
+    "evidence": [{
+      "company": "Asia Pacific Manyu Technology",
+      "projectId": "project-cex-platform",
+      "description": "Led modular PRDs and technical pre-review for complex exchange systems.",
+      "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"]
+    }],
+    "evidenceLevel": "confirmed"
+  }
+]

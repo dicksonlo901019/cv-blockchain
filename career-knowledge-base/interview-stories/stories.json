@@ -1,0 +1,39 @@
+[
+  {
+    "id": "story-cex-zero-to-one",
+    "title": "0-to-1 CEX platform launch",
+    "competencies": ["0-to-1 Product", "Product Strategy", "Technical Programme Delivery", "Product Leadership"],
+    "situation": "A centralized-exchange ecosystem required core trading, wallet, account, approval, routing, and risk-control foundations.",
+    "task": "Lead the product and design function and define the platform scope.",
+    "action": "Led modular requirements and technical pre-review while defining platform, ledger, approval, routing, and risk-control flows.",
+    "result": "Delivered the 0-to-1 platform launch within four months.",
+    "lessons": "Complex platform delivery benefits from modular requirements and early logic alignment.",
+    "relatedProjectIds": ["project-cex-platform"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "story-futures-grid",
+    "title": "Futures Grid Trading Bot",
+    "competencies": ["Product Strategy", "Risk Management", "Technical Programme Delivery", "UX"],
+    "situation": "A derivatives product required a grid-trading workflow spanning strategy choice, order logic, margin, liquidation, and return calculations.",
+    "task": "Design the Web and App experience and its core product logic.",
+    "action": "Defined neutral, long, and short strategies, arithmetic and geometric grids, margin and liquidation logic, order splitting, FILO matching, and return calculations.",
+    "result": "Produced the end-to-end product design for the Futures Grid Trading Bot.",
+    "relatedProjectIds": ["project-futures-grid"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "story-ai-product-workflow",
+    "title": "AI-assisted product development workflow",
+    "competencies": ["Product Discovery", "Cross-functional Collaboration", "Technical Programme Delivery"],
+    "situation": "Web3 product iteration involved repeated handoffs across product, UI/UX, front-end, and Figma work.",
+    "task": "Create a constrained AI-assisted workflow from requirements to prototype.",
+    "action": "Decomposed roles into agentic workflows and introduced IR mapping and design-system dictionary constraints.",
+    "result": "Supported faster iteration from business requirements to PRDs, wireframes, semantic mappings, and high-fidelity prototypes.",
+    "relatedProjectIds": ["project-ai-workflow"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  }
+]

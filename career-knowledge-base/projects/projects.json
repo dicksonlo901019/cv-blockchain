@@ -1,0 +1,124 @@
+[
+  {
+    "id": "project-xchanger-nft",
+    "projectName": "Xchanger NFT Platform",
+    "company": "Xchanger Co., Ltd.",
+    "role": "Web Product Manager",
+    "domains": ["Web3", "Gaming", "NFT"],
+    "productTypes": ["NFT Marketplace", "Wallet"],
+    "problem": "Support NFT and game-asset movement across Web2 and Web3 while preserving non-custodial transparency.",
+    "responsibilities": [
+      "Planned the NFT platform and Web3 wallet flows.",
+      "Integrated WalletConnect and EIP-712 signing.",
+      "Designed NFT transfers between games across Web2 and Web3.",
+      "Defined on-chain and off-chain asset reconciliation and data-consistency monitoring."
+    ],
+    "deliverables": ["NFT platform flows", "Wallet flows", "Asset reconciliation rules"],
+    "outcomes": ["Improved the security and transparency of non-custodial withdrawals."],
+    "skills": ["WalletConnect", "EIP-712", "NFT", "Asset Reconciliation", "Product Planning"],
+    "competencies": ["Product Strategy", "Roadmap", "Risk Management", "Cross-functional Collaboration"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "project-cex-platform",
+    "projectName": "Fameex / TopOne CEX Platform",
+    "company": "Asia Pacific Manyu Technology",
+    "role": "Product Manager to Product Lead",
+    "domains": ["FinTech", "Crypto Exchange", "Digital Assets"],
+    "productTypes": ["Crypto Exchange", "Trading", "Wallet", "C2C / P2P", "Referral System"],
+    "problem": "Create a centralized-exchange platform and its trading, account, approval, routing, and risk-control foundations.",
+    "responsibilities": [
+      "Defined trading infrastructure, wallet and account architecture, approval flows, rebate engine, fiat and crypto routing, and risk-control systems.",
+      "Led modular PRD design and technical pre-review.",
+      "Designed a Triple-Ledger asset architecture and dynamic approval flows.",
+      "Re-architected the exchange admin system into modular configuration components."
+    ],
+    "deliverables": ["CEX platform", "Triple-Ledger architecture", "Approval flows", "Admin configuration system"],
+    "outcomes": ["Delivered a 0-to-1 CEX launch within four months."],
+    "skills": ["CEX", "PRD", "Asset Ledger", "Approval Flow", "Risk Controls", "Product Leadership"],
+    "competencies": ["0-to-1 Product", "Platform Product", "Technical Programme Delivery", "Risk Management", "Stakeholder Management"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "project-futures-grid",
+    "projectName": "Perpetual Futures Grid Trading System",
+    "company": "Asia Pacific Manyu Technology",
+    "role": "Product Lead",
+    "domains": ["FinTech", "Derivatives", "Trading"],
+    "productTypes": ["Crypto Exchange", "Trading"],
+    "responsibilities": [
+      "Led end-to-end Web and App design for a Futures Grid Trading Bot.",
+      "Defined neutral, long, and short strategies; arithmetic and geometric grids; liquidation-price and initial-margin logic; order splitting; FILO matching; and ROI and APY calculations."
+    ],
+    "deliverables": ["Futures Grid Trading Bot", "Trading and risk calculation rules"],
+    "outcomes": [],
+    "skills": ["Futures", "Grid Trading", "Trading UX", "Margin", "Risk Controls"],
+    "competencies": ["Product Strategy", "Technical Programme Delivery", "Risk Management", "UX"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "project-fiat-crypto",
+    "projectName": "Fiat / Crypto FX Platform",
+    "company": "Asia Pacific Manyu Technology",
+    "role": "Product Lead",
+    "domains": ["FinTech", "Payments", "Crypto Exchange"],
+    "productTypes": ["Payments", "C2C / P2P", "Trading"],
+    "responsibilities": [
+      "Designed fiat on/off-ramp, C2C/P2P, and Quick Trade flows.",
+      "Defined FX aggregation, median-deviation protection, liquidity-priority smart routing, IP and device blocking, and cancellation-risk controls."
+    ],
+    "deliverables": ["C2C/P2P flows", "Quick Trade", "FX aggregation", "Smart routing"],
+    "outcomes": [],
+    "skills": ["Payments", "C2C", "P2P", "FX", "Smart Routing", "Risk Controls"],
+    "competencies": ["Platform Product", "Risk Management", "Data Analysis", "Technical Programme Delivery"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "project-ai-workflow",
+    "projectName": "AI Agent Product Development Workflow",
+    "company": "Xchanger Co., Ltd.",
+    "role": "Web Product Manager",
+    "domains": ["AI", "Product Development", "Web3"],
+    "productTypes": ["AI Agent", "B2B Platform"],
+    "responsibilities": [
+      "Built an agentic product automation workflow across PM, UI/UX, front-end, and Figma roles.",
+      "Converted business requirements into PRDs, wireframes, semantic mappings, and high-fidelity prototypes.",
+      "Defined IR mapping and design-system dictionary constraints to reduce LLM hallucinations."
+    ],
+    "deliverables": ["Agentic workflow", "IR mapping", "Design-system dictionary constraints", "Design-to-code prototypes"],
+    "outcomes": ["Accelerated Web3 product iteration from requirements to prototype."],
+    "skills": ["AI Agents", "Prompt Engineering", "IR Mapping", "Design-to-Code", "Product Automation"],
+    "competencies": ["Product Strategy", "Product Discovery", "Technical Programme Delivery", "Cross-functional Collaboration"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "project-hash-card",
+    "projectName": "Hash Card",
+    "company": "Gallup Communications",
+    "role": "Product Manager",
+    "domains": ["FinTech", "Crypto"],
+    "productTypes": ["Payments", "Wallet", "Referral System"],
+    "responsibilities": [
+      "Conducted market research and user interviews.",
+      "Led App and Web flow planning and prototype design.",
+      "Designed the product flow across discovery, checkout, confirmation, payment, dashboard, wallet, settings, messages, and referrals."
+    ],
+    "deliverables": ["33-page crypto product prototype"],
+    "outcomes": [],
+    "skills": ["Market Research", "User Interviews", "Product Flow", "Prototyping", "Wallet", "Checkout"],
+    "competencies": ["Product Discovery", "UX", "Roadmap", "Cross-functional Collaboration"],
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  }
+]

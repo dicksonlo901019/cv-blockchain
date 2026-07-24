@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dicksonlo.dev/schemas/career-records.schema.json",
+  "title": "Career knowledge base records",
+  "$defs": {
+    "evidenceLevel": {
+      "enum": ["confirmed", "inferred", "draft", "unverified"]
+    },
+    "confidentiality": {
+      "enum": ["public", "private", "restricted"]
+    },
+    "sourcePaths": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "type": "object",
+  "required": ["experiences", "projects", "achievements", "skills", "stories"],
+  "properties": {
+    "experiences": { "type": "array" },
+    "projects": { "type": "array" },
+    "achievements": { "type": "array" },
+    "skills": { "type": "array" },
+    "stories": { "type": "array" }
+  },
+  "additionalProperties": false
+}

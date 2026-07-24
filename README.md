@@ -22,3 +22,15 @@ GitHub Actions 會自動發布。每個對外穩定版本使用
 保留完整歷史。
 
 現有 Sites 網站在 GitHub Pages 完成驗證與入口遷移前持續保留，不直接移除。
+
+## Career Intelligence RAG MVP
+
+此 repository 另提供隔離的職涯知識庫檢索 MVP：
+
+- English：`/career-rag/en/`
+- 中文：`/career-rag/zh/`
+- 架構、資料規則、選用向量服務與限制：[docs/career-rag.md](./docs/career-rag.md)
+
+預設模式完全在本地執行 deterministic retrieval，不需要 OpenAI 或 Supabase
+credentials。這是 repository-grounded retrieval MVP，不宣稱為 production-ready
+vector RAG 平台。
