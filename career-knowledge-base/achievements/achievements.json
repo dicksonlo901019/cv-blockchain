@@ -1,0 +1,41 @@
+[
+  {
+    "id": "achievement-cex-launch",
+    "statement": "Delivered a 0-to-1 centralized-exchange platform launch within four months.",
+    "company": "Asia Pacific Manyu Technology",
+    "projectId": "project-cex-platform",
+    "achievementType": "Product launch",
+    "metrics": { "deliveryMonths": 4 },
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "achievement-team-lead",
+    "statement": "Led a five-person product and design team responsible for the Fameex / TopOne CEX ecosystem.",
+    "company": "Asia Pacific Manyu Technology",
+    "projectId": "project-cex-platform",
+    "achievementType": "Leadership",
+    "metrics": { "teamSize": 5 },
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "achievement-requirement-alignment",
+    "statement": "Led modular PRD design and technical pre-review, reaching 100% requirement componentization and 80% complex-logic alignment.",
+    "company": "Asia Pacific Manyu Technology",
+    "projectId": "project-cex-platform",
+    "achievementType": "Delivery process",
+    "metrics": { "requirementComponentizationPercent": 100, "complexLogicAlignmentPercent": 80 },
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  },
+  {
+    "id": "achievement-ai-workflow",
+    "statement": "Built an agentic workflow that supported product iteration from requirements to prototype.",
+    "company": "Xchanger Co., Ltd.",
+    "projectId": "project-ai-workflow",
+    "achievementType": "Product development workflow",
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed"
+  }
+]

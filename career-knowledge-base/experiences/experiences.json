@@ -1,0 +1,26 @@
+[
+  {
+    "id": "experience-xchanger",
+    "company": "Xchanger Co., Ltd.",
+    "title": "Web Product Manager",
+    "industry": ["Web3", "Gaming", "NFT"],
+    "startDate": "2025-07",
+    "endDate": "2026-06",
+    "summary": "Led product planning for the Xchanger NFT platform and built an AI-assisted product development workflow.",
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  },
+  {
+    "id": "experience-ap-manyu",
+    "company": "Asia Pacific Manyu Technology",
+    "title": "Product Manager to Product Lead",
+    "industry": ["FinTech", "Crypto Exchange", "Digital Assets"],
+    "startDate": "2022-07",
+    "endDate": "2025-07",
+    "summary": "Led a five-person product and design team responsible for the Fameex / TopOne CEX ecosystem.",
+    "sourcePaths": ["public/blockchain-cv.html", "public/zh/index.html"],
+    "evidenceLevel": "confirmed",
+    "confidentiality": "public"
+  }
+]
